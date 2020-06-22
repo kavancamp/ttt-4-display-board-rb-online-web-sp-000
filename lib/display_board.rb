@@ -32,13 +32,13 @@ puts " #{board[3]} | #{board[4]} | #{board[5]} "
 puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", "O", "O", "O"]
 
 puts " #{board[0]} | #{board[1]} | #{board[2]} "
 puts "-----------"
 puts " #{board[3]} | #{board[4]} | #{board[5]} "
 puts "-----------"
-puts " #{board[6]}O | #{board[7]}O | #{board[8]}O "
+puts " #{board[6]} | #{board[7]} | #{board[8]} "
 
 
 end
